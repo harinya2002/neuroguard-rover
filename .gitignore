@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+
+# Jupyter 
+.ipynb_checkpoints/
+
+# Data 
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Models 
+models/*
+!models/.gitkeep
+
+# Environment
+.env
+.DS_Store
+
+# IDE 
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Large media
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.wav
+*.mp3
